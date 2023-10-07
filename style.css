@@ -1,0 +1,52 @@
+body{
+	background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(183,148,233,1) 100%);
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+}
+#form{
+	width:400px;
+	margin:10vh auto 0 auto;
+	background-color:whitesmoke;
+	border-radius:5px;
+	padding:30px;
+}
+h1{
+	text-align:center;
+	color:purple;
+}
+#form button{
+	background-color:purple;
+	color:white;
+	border:1px solid purple;
+	padding:10px;
+	margin:20px 0px;
+	border-radius:5px;
+	cursor:pointer;
+	width:100%;
+	font-size:20px;
+}
+.input_group{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:15px;
+}
+.input_group input{
+	font-size:20px;
+	border-radius:5px;
+	margin-top:5px;
+	padding:10px;
+	border:1px solid rgb(34,193,195);
+	outline:0;
+}
+.input_group .error{
+	color:red;
+	font-size:16px;
+	margin-top:5px;
+}
+.input_group.success input{
+	border-color:rgb(34,193,195);
+}
+.input_group.error input{
+	border-color:red;
+}
